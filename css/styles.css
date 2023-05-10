@@ -1,3 +1,10 @@
+:root {
+    --primary-text-color 
+    --title-text-color 
+    --accent-color
+}
+
+
 .list {
     list-style: none;
 }
@@ -5,8 +12,11 @@
     text-decoration: none;
 }
 
+body {
+    font-family:
+}
 
-
+/* header */ 
 .logo {
     font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -38,16 +48,33 @@
         text-transform: uppercase;
     
        
-        color: #2E2F42;
-}
+        color: #2E2F42; }
 
 .menu-link {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
 
-letter-spacing: 0.02em;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+        
+.adress-item {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+       
+        letter-spacing: 0.02em;
+    
+    
+        color: #434455;
+        
+}
 
-color: #2E2F42; }
+
