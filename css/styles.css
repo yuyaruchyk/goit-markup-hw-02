@@ -2,6 +2,7 @@
   --primary-text-color: #434455;
   --text-color-navy: #2e2f42;
   --color-hover-focus: #404bbf;
+  --color-background-dark: #2e2f42;
 }
 
 .list {
@@ -73,39 +74,74 @@ body {
 
 /*------------Hero----------*/
 .hero {
-    background-color: #2E2F42;
+  background-color: var(--color-background-dark);
 }
 .hero-title {
-    
-    font-size: 56px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-  color: #FFFFFF;
-
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-btn {
-font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
-    color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
 
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
+  color: #ffffff;
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.hero-btn:hover { 
-    background-color: var(--color-hover-focus)
+.hero-btn:hover {
+  background-color: var(--color-hover-focus);
 }
 .hero-btn:focus {
-    background-color: var(--color-hover-focus)
+  background-color: var(--color-hover-focus);
+}
+
+/*--------about--------*/
+
+.top-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--text-color-navy);
+}
+.top-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+/*-------About-US-------*/
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-color-navy);
+}
+
+/*--------Footer--------*/
+
+.page-footer {
+  background-color: var(--color-background-dark);
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
