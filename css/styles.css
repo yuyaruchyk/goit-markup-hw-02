@@ -1,16 +1,16 @@
 :root {
   --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
   --footer-text-color: #f4f4fd;
-  --text-color-background-color: #2e2f42;
+   --logo-text-color: #4d5ae5;
+  --color-title-white: #ffffff;
+
   --color-hover-focus: #404bbf;
   --color-text-btn: #4d5ae5;
-  
-  --color-background-btn: #F4F4FD; 
+  --color-background-btn: #f4f4fd;
 
-  --color-title-white: #ffffff; 
-  
-
-
+  --background-color-main: #ffffff;
+  --secondary-background-color: #2E2F42;
 
 }
 
@@ -24,6 +24,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--background-color-main);
 }
 
 /* ----------header-------------- */
@@ -35,7 +36,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
-  color: #4d5ae5;
+  color: var(--logo-text-color);
+
 }
 
 .logo-item {
@@ -44,7 +46,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
-  color: var(--text-color-navy);
+  color: var(--secondary-text-color);
 }
 /*--menu--*/
 
@@ -60,7 +62,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color-background-color);
+  color: var(--secondary-text-color);
+
 }
 /*--adress--*/
 
@@ -70,7 +73,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
 }
 
@@ -83,7 +85,7 @@ body {
 
 /*------------Hero----------*/
 .hero {
-  background-color: var(--text-color-background-color);
+  background-color: var(--secondary-background-color);
 }
 .hero-title {
   font-size: 56px;
@@ -102,24 +104,20 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .hero-btn {
   color: var(--color-title-white);
 
   background-color: var(--color-hover-focus);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   
 }
-
-.page-btn:hover {
-  background-color: var(--color-hover-focus);
+.hero-btn:hover {
+  background-color: var(--color-text-btn);
 }
-.page-btn:focus {
-  background-color: var(--color-hover-focus);
-
+.hero-btn:focus {
+  background-color: var(--color-text-btn);
 }
 
 /*--------about--------*/
@@ -128,7 +126,8 @@ cursor: pointer;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--text-color-navy);
+  color: var(--secondary-text-color);
+
 }
 .top-text {
   font-weight: 400;
@@ -146,15 +145,33 @@ cursor: pointer;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--text-color-navy);
+  color: var(--secondary-text-color);
+
 }
 
 /*--------Footer--------*/
 
 .page-footer {
-  background-color: var(--color-background-dark);
+  background-color: var(--secondary-background-color);
+
 }
 
 .footer-text {
   color: var(--footer-text-color);
+}
+
+/*-----------Portfolio------*/
+
+.portfolio-btn {
+  color: var(--color-text-btn);
+  background-color: var(--color-background-btn);
+}
+.portfolio-btn:hover {
+  color: var(--color-title-white);
+  background-color: var(--color-hover-focus);
+}
+
+.portfolio-btn:focus {
+  color: var(--color-title-white);
+  background-color: var(--color-hover-focus);
 }
