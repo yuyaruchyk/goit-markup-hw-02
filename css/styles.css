@@ -11,6 +11,8 @@
 
   --background-color-main: #ffffff;
   --secondary-background-color: #2E2F42;
+  --third-background-color: #F4F4FD;
+
 
 }
 
@@ -139,16 +141,26 @@ body {
 /*-------About-US-------*/
 
 .section-title {
-  font-size: 36px;
+ font-size: 36px;
   line-height: 1.1;
 
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color); 
+}
+  
+  
+
+  /*----------Our-Team--------*/
+
+  .team { 
+    background-color: var(--third-background-color);
 
 }
-
+.team-member {
+  background-color: var(--background-color-main);
+}
 /*--------Footer--------*/
 
 .page-footer {
