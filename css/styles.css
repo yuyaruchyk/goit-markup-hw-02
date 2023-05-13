@@ -71,6 +71,10 @@ body {
 
 }
 /*--adress--*/
+.page-adress  {
+  font-style: normal;
+}
+
 
 .adress-item {
   font-family: inherit;
