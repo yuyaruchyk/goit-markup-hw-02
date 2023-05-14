@@ -2,7 +2,7 @@
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --footer-text-color: #f4f4fd;
-   --logo-text-color: #4d5ae5;
+  --logo-text-color: #4d5ae5;
   --color-title-white: #ffffff;
 
   --color-hover-focus: #404bbf;
@@ -10,10 +10,8 @@
   --color-background-btn: #f4f4fd;
 
   --background-color-main: #ffffff;
-  --secondary-background-color: #2E2F42;
-  --third-background-color: #F4F4FD;
-
-
+  --secondary-background-color: #2e2f42;
+  --third-background-color: #f4f4fd;
 }
 
 .list {
@@ -41,17 +39,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-text-color);
-
 }
 
 .logo-item {
-  font-family: 'Raleway', sans-serif;
-
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.2;
-  color: var(--secondary-text-color)
-
+  color: var(--secondary-text-color);
 }
 /*--menu--*/
 
@@ -68,13 +59,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-
 }
 /*--adress--*/
-.page-adress  {
+.page-adress {
   font-style: normal;
 }
-
 
 .adress-item {
   font-family: inherit;
@@ -83,7 +72,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
 }
 
 .adress-item:hover {
@@ -105,7 +93,6 @@ body {
   color: var(--color-title-white);
 }
 
-
 .page-btn {
   font-family: inherit;
   font-weight: 500;
@@ -121,19 +108,16 @@ body {
 .hero-btn {
   color: var(--color-title-white);
 
-  background-color: #4D5AE5;
-  
+  background-color: #4d5ae5;
 }
 .hero-btn:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /*--------about--------*/
-
-
 
 .top-title {
   font-weight: 500;
@@ -141,7 +125,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-
 }
 .top-text {
   font-weight: 400;
@@ -155,22 +138,19 @@ body {
 /*-------About-US-------*/
 
 .section-title {
- font-size: 36px;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: var(--secondary-text-color); 
+  color: var(--secondary-text-color);
 }
-  
-  
 
-  /*----------Our-Team--------*/
+/*----------Our-Team--------*/
 
-  .team { 
-    background-color: var(--third-background-color);
-
+.team {
+  background-color: var(--third-background-color);
 }
 .team-member {
   background-color: var(--background-color-main);
@@ -179,7 +159,6 @@ body {
 
 .page-footer {
   background-color: var(--secondary-background-color);
-
 }
 
 .footer-text {
@@ -187,7 +166,6 @@ body {
 }
 .span-item {
   color: var(--footer-text-color);
-
 }
 /*-----------Portfolio------*/
 
